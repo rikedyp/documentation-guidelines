@@ -147,13 +147,13 @@ Notes are used to highlight important information.
     Hints, tips, best practice and recommendations from Dyalog Ltd
 
     ``` { .example}
-    !!! Tip "Hints and Recommendations"
+    !!! Hint "Hints and Recommendations"
         If both DOSLimit and BufferSize are set, then the smaller value applies. Dyalog Ltd recommends using a modest BufferSize and not setting EnableBufferSizeHttp to ensure that abnormally large headers are not processed, then setting an appropriate DOSLimit to accommodate the expected size messages.
     ```
 
     <div class="example-output" markdown="1">
 
-    !!! Tip "Hints and Recommendations"
+    !!! Hint "Hints and Recommendations"
         If both DOSLimit and BufferSize are set, then the smaller value applies. Dyalog Ltd recommends using a modest BufferSize and not setting EnableBufferSizeHttp to ensure that abnormally large headers are not processed, then setting an appropriate DOSLimit to accommodate the expected size messages.
     
     </div>
@@ -258,13 +258,13 @@ Notes are also used to differentiate between operating-system-specific behaviour
     <p class="example">example</p>
 
     ```
-    !!! macOS "Dyalog on macOS"
+    !!! macos "Dyalog on macOS"
         By default, the cache file is located in **Users/<name\>/.dyalog/**
     ```
 
     <div class="example-output" markdown="1">
 
-    !!! macOS "Dyalog on macOS"
+    !!! macos "Dyalog on macOS"
         By default, the cache file is located in **Users/<name\>/.dyalog/**
     
     </div>
@@ -294,7 +294,7 @@ Instructions are written as an ordered list. Blocks that contain instructions sh
 
 <span class="example">Example</span>
 
-```
+```markdown
 ---
 
 **To do this thing**
@@ -418,7 +418,7 @@ hello
 ```
 ``````
 
-```pythom
+```python
 >>> print("hello")   # Code block example
 hello
 ```
@@ -430,7 +430,7 @@ If it is essential, use `<span class="language-apl">` to add code to titles.
 
 <p class="example">Example</p>
 
-```
+```markdown
 ### APL Code <span class="language-apl">+⌿÷≢⌹</span> in Titles
 ```
 
