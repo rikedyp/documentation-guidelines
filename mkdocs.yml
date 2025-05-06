@@ -29,7 +29,7 @@ markdown_extensions:
   - toc:
       title: On this page
 extra_css:
-  - styles/custom-admonitions.css
+  - styles/documentation-styles/css/main.css
   - styles/main.css
 nav:
   - Home: index.md
