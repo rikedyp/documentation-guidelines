@@ -326,32 +326,24 @@ Examples are used to demonstrate the functionality discussed.
 Introduce full examples with:
 
 ```
-example (or examples)
-{ .example}
+<h* class="example">Example</h*>
 ```
 
-which renders as `<p class="example">example</p>`.
+Where `<h*>` is a heading one level below the containing section. You must use an HTML `<h>` tag, both to include the `example` class and because headings written in HTML will not appear in the table of contents.
 
 Exception – if there are several consecutive examples illustrating different things, they can each be introduced with "Example: <text\>" if that helps to clarify things for the reader.
 
 !!! Info "Information"
     The examples in this document use `<div class="example-output" markdown="1">` to provide a grey background that distinguishes examples from normal text. However, we do not use this convention in our actual documentation.
-
 ```
-example
-{ .example}
+<h3 class="example">Example</h3>
 
 This is an example
 ```
 
-<div class="example-output" markdown="1">
-
-example
-{ .example}
+<h3 class="example">Example</h3>
 
 This is an example
-
-</div>
 
 ## Code
 Inline code and code blocks render in APL font unless the class "language-nonAPL" is used.
