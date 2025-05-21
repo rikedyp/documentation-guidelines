@@ -364,12 +364,12 @@ Inline, use `<code>[your code here]</code>` or single backticks `` `[your code h
 <p class="example">Example: APL code</p>
 
 ```html
-The average of a vector (<code class="language-apl">+⌿÷≢</code>) is the sum divided by the tally.
+The average of a vector (`+⌿÷≢`) is the sum divided by the tally.
 ```
 
 <div class="example-output" markdown="1">
 
-The average of a vector (<code class="language-apl">+⌿÷≢</code>) is the sum divided by the tally.
+The average of a vector (`+⌿÷≢`) is the sum divided by the tally.
 
 </div>>
 
