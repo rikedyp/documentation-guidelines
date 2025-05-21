@@ -354,7 +354,7 @@ This is an example
 </div>
 
 ## Code
-Inline code and code blocks render in APL font unless the class "language-other" is used.
+Inline code and code blocks render in APL font unless the class "language-nonAPL" is used.
 
 Syntax highlighting is not enabled.
 
@@ -376,12 +376,12 @@ The average of a vector (`+⌿÷≢`) is the sum divided by the tally.
 <p class="example">Example: non-APL code</p>
 
 ```html
-<code class="language-other">getpid()</code> is common to all UNIX platforms.
+<code class="language-nonAPL">getpid()</code> is common to all UNIX platforms.
 ```
 
 <div class="example-output" markdown="1">
 
-<code class="language-other">getpid()</code> is common to all UNIX platforms.
+<code class="language-nonAPL">getpid()</code> is common to all UNIX platforms.
 
 </div>>
 
@@ -409,18 +409,18 @@ Code blocks use triple backticks with "apl" (lowercase) to denote the language.
 ```
 
 #### Non-APL Code Blocks
-Use triple backticks with the name of the language or format, or "other" (lowercase).
+Use triple backticks with "nonAPL".
 
 <p class="example">Example: Using backticks</p>
 
 ``````
-```python
+```nonAPL
 >>> print("hello")   # Code block example
 hello
 ```
 ``````
 
-```python
+```nonAPL
 >>> print("hello")   # Code block example
 hello
 ```
