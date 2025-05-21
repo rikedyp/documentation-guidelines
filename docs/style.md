@@ -51,10 +51,12 @@ Use italics when:
 - naming a function or operator
 - an algebraic term is being used instead of the number, then it should be italicised to distinguish it from the postscript, for example, "the ith term" or "the nth time".
 
-Italics are denoted by single asterisks surrounding the text.
+Italics are denoted by single asterisks or underscores surrounding the text.
 
 ``` { .example}
 The word *asterisks* is italicised.
+
+The word _asterisks_ is italicised.
 ```
 
 The word *asterisks* is italicised.
@@ -454,12 +456,12 @@ References to other documents should correctly name the document and be italicis
 <p class="example">Example</p>
 
 ```
-For more information on the *Clean* function, see the [*SALT User Guide*](https://docs.dyalog.com/latest/SALT%20User%20Guide.pdf).
+For more information on the _Clean_ function, see the [_SALT User Guide_](https://docs.dyalog.com/latest/SALT%20User%20Guide.pdf).
 ```
 
 <div class="example-output" markdown="1">
 
-For more information on the *Clean* function, see the [*SALT User Guide*](https://docs.dyalog.com/latest/SALT%20User%20Guide.pdf).
+For more information on the _Clean_ function, see the [_SALT User Guide_](https://docs.dyalog.com/latest/SALT%20User%20Guide.pdf).
 
 </div>>
 
