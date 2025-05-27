@@ -1,7 +1,7 @@
 site_name: Dyalog Documentation Guidelines
 repo_url: https://github.com/Dyalog/documentation-guidelines
 
-copyright: Copyright &copy; 2015-2022 <strong><a href="https://dyalog.com" target="_blank" rel="noopener">Dyalog, LTD</a></strong>
+copyright: Copyright &copy; 2015-2025 <strong><a href="https://dyalog.com" target="_blank" rel="noopener">Dyalog, LTD</a></strong>
 theme:
   name: material
   favicon: 'img/favicon-32.png'
